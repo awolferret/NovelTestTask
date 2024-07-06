@@ -2,7 +2,6 @@
     Player: "Looks like it won't be easy"
     Player: "Am i ready?"
     @hidePrinter
-    @showUI PlayerHud 
     @choice "Play the game" goto:.MiniGame
     @stop
 @else
@@ -11,7 +10,6 @@
 @endif
 
 #MiniGame
-@hideUI PlayerHud
 @hidePrinter 
 @set ItemTook=true
 @goto Map
