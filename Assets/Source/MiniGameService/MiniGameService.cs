@@ -1,6 +1,5 @@
 using Naninovel;
 using Naninovel.UI;
-using UnityEngine;
 
 namespace Source.MiniGameService
 {
@@ -8,6 +7,9 @@ namespace Source.MiniGameService
     public class MiniGameService : IEngineService
     {
         private const string Minigame = "MiniGame";
+        private const string paramName = "ItemTook";
+        private const string True = "True";
+        private const string ScriptName = "Map";
 
         private readonly IUIManager _uiManager;
         private readonly ICustomVariableManager _customVariableManager;
@@ -35,9 +37,8 @@ namespace Source.MiniGameService
 
         private void OnVariableUpdated(CustomVariableUpdatedArgs obj)
         {
-            if (obj.Name == "ItemTook" && obj.Value == "True")
+            if (obj.Name == paramName && obj.Value == True)
             {
-                Debug.Log(obj.Value);
                 Stop();
             }
         }
@@ -61,6 +62,6 @@ namespace Source.MiniGameService
         }
 
         private void ReturnToMap() => 
-            Engine.GetService<IScriptPlayer>().PreloadAndPlayAsync("Map");
+            Engine.GetService<IScriptPlayer>().PreloadAndPlayAsync(ScriptName);
     }
 }
