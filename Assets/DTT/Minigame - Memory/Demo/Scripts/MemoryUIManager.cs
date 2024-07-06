@@ -97,7 +97,7 @@ namespace DTT.MinigameMemory.Demo
         {
             Hide();
             _gameManager.Stop();
-            _levelSelectHandler.ShowLevelSelect();
+            //_levelSelectHandler.ShowLevelSelect();
         }
 
         /// <summary>

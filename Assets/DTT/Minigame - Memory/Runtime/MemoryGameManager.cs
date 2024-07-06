@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using System;
 using DTT.MinigameBase;
-using DTT.MinigameBase.Timer;
-using DTT.MinigameBase.UI;
+using Naninovel;
+using Timer = DTT.MinigameBase.Timer.Timer;
 
 namespace DTT.MinigameMemory
 {
@@ -69,6 +67,7 @@ namespace DTT.MinigameMemory
         /// <summary>
         /// The GameSettings.
         /// </summary>
+        [SerializeField]
         private MemoryGameSettings _settings;
 
         /// <summary>
@@ -76,13 +75,16 @@ namespace DTT.MinigameMemory
         /// </summary>
         private int _amountOfTurns = 0;
 
+        public void StartGameFromService() => 
+            StartGame(_settings);
+
         /// <summary>
         /// Starts the game with the given settings.
         /// </summary>
         /// <param name="settings">The settings used for this play session.</param>
         public void StartGame(MemoryGameSettings settings)
         {
-            _settings = settings;
+
             _amountOfTurns = 0;
             _isPaused = false;
             _isGameActive = true;
@@ -130,13 +132,16 @@ namespace DTT.MinigameMemory
         {
             _timer.Stop();
             _isGameActive = false;
+            ICustomVariableManager customVariableManager = Engine.GetService<ICustomVariableManager>();
+            customVariableManager.TrySetVariableValue("ItemTook", true);
             Finish?.Invoke(new MemoryGameResults(_timer.TimePassed, _amountOfTurns));
         }
 
         /// <summary>
         /// Adds a <see cref="Timer"/> to the gameobject if there was not timer assigned.
         /// </summary>
-        private void Awake() => _timer = (_timer == null) ? this.gameObject.AddComponent<Timer>() : _timer;
+        private void Awake() => 
+            _timer = (_timer == null) ? this.gameObject.AddComponent<Timer>() : _timer;
 
         /// <summary>
         /// Subscribe to board events.

@@ -150,6 +150,9 @@ MonoBehaviour:
     - name: PlayerHud
       pathPrefix: UI
       guid: 0fd177d2e0e339542be3a9b878436363
+    - name: MiniGame
+      pathPrefix: UI
+      guid: 9d80166a1412b82478adb85422a44678
   - Id: Scripts
     Resources:
     - name: GetPlayerName
