@@ -283,8 +283,6 @@ MonoBehaviour:
   scriptName: 
   scriptText: '@hideUI PlayerHud
 
-    @hideAll
-
     @goto Map'
   playOnAwake: 0
   disableWaitInput: 0
