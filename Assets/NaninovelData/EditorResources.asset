@@ -144,3 +144,33 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+    - name: Map
+      pathPrefix: UI
+      guid: 59f1bb4615290b24ea50766d8bb2da4f
+  - Id: Scripts
+    Resources:
+    - name: GetPlayerName
+      pathPrefix: Scripts
+      guid: d5a6a52c7cad5bc4fa67ef5b3a4b4d8e
+    - name: Map
+      pathPrefix: Scripts
+      guid: b055f658aafd5814c929fd92f97a447c
+    - name: ToNPC
+      pathPrefix: Scripts
+      guid: bcacd3700b31f2c45a99fe5bcfd13f2b
+    - name: ItemLocation
+      pathPrefix: Scripts
+      guid: 656bbadc55c66e244a20f1cc7dad9e48
+    - name: FinalChoise
+      pathPrefix: Scripts
+      guid: c0d1234f27ea19a43b802f30a0e0045e
+  - Id: Movies
+    Resources: []
+  - Id: Audio
+    Resources: []
+  - Id: Backgrounds/90627977-e40f-491a-bab2-73f9b2f669a6
+    Resources: []
+  - Id: Characters/99e572d4-edff-4d87-add2-0d2850de39d4
+    Resources: []
+  - Id: Characters/f3638b06-50fe-4fd6-85d4-30d9e1d2d7e7
+    Resources: []

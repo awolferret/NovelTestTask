@@ -1,0 +1,7 @@
+@hidePrinter 
+@showUI Map
+@if locationOpen
+    @choice handler:ButtonArea button:Buttons/ToLocation goto:ItemLocation
+    @stop
+@endif
+@stop

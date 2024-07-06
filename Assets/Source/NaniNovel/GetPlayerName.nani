@@ -1,0 +1,7 @@
+@print "Hello, what's your name?"
+@hidePrinter 
+@input name summary:"Enter your name"
+@stop
+Player: Name's {name}!
+@hidePrinter
+@goto Map
