@@ -1,12 +1,17 @@
-@hideUI Map
-@choice handler:ButtonArea button:Buttons/ToMap goto:Map 
-Player: "Looks like it won't be easy"
-Player: "Am i ready?"
-@hidePrinter 
-@choice handler:ButtonArea button:Buttons/StartMiniGame goto:.MiniGame
-@stop
+@if !ItemTook
+    Player: "Looks like it won't be easy"
+    Player: "Am i ready?"
+    @hidePrinter
+    @showUI PlayerHud 
+    @choice "Play the game" goto:.MiniGame
+    @stop
+@else
+    Player: "There is nothing i need anymore"
+    @goto Map
+@endif
 
 #MiniGame
+@hideUI PlayerHud
 @hidePrinter 
 @set ItemTook=true
 @goto Map

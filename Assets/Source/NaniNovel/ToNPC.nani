@@ -1,16 +1,16 @@
+@showUI PlayerHud
 @if !NPCMet
     @set NPCMet=true
-    @set locationOpen=true
     NPC: "Hello there"
     NPC: "I need your help"
     NPC: "I need you to go to this location and find something for me"
+    @set locationOpen=true
     @hidePrinter
 @elseif !ItemTook
     NPC: "Please bring me the item"
     @hidePrinter
 @else
+    @hideUI PlayerHud
     @goto FinalChoice
-@endif
-
-@choice handler:ButtonArea button:Buttons/ToMap goto:Map     
+@endif  
 @stop

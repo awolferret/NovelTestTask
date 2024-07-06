@@ -1,8 +1,8 @@
 NPC: "You brought it?"
 NPC: "Good, but now i dont need it"
 NPC: "You can keep it to yourself"
-@choice "Keep the item for yourself" goto:.GiveItem
-@choice "Give the item to NPC" goto:.KeepToYourself
+@choice "Give the item to NPC" goto:.GiveItem
+@choice "Keep the item for yourself" goto:.KeepToYourself
 @stop
 
 #GiveItem

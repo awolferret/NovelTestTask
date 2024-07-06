@@ -147,6 +147,9 @@ MonoBehaviour:
     - name: Map
       pathPrefix: UI
       guid: 59f1bb4615290b24ea50766d8bb2da4f
+    - name: PlayerHud
+      pathPrefix: UI
+      guid: 0fd177d2e0e339542be3a9b878436363
   - Id: Scripts
     Resources:
     - name: GetPlayerName
