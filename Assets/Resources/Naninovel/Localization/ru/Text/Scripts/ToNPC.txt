@@ -1,0 +1,17 @@
+; English <en> to Russian <ru> localization document for `ToNPC` naninovel script
+
+# ~98e42b87
+; "Hello there"
+Привет
+
+# ~ad9fb2c4
+; "I need your help"
+Мне нужна твоя помощь
+
+# ~4cd63a4d
+; "I need you to go to this location and find something for me"
+Мне нужно что-бы ты сходил в одно место и забрал для меня кое-что
+
+# ~54327ec9
+; "Please bring me the item"
+Пожалуста, принеси предмет

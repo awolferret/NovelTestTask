@@ -1,0 +1,238 @@
+; English <en> to Russian <ru> localization document for `DefaultUI` managed text document
+
+; CG GALLERY
+CGGallery.Title: 
+
+; NO
+Confirmation.No: Нет
+
+; YES
+Confirmation.Yes: Да
+
+; AUTO
+ControlPanel.Auto: Авто
+
+; CONT.
+ControlPanel.Continue: Прод.
+
+; HIDE
+ControlPanel.Hide: Спрятать
+
+; LOAD
+ControlPanel.Load: Загрузить
+
+; LOG
+ControlPanel.Log: ЛОГ
+
+; MENU
+ControlPanel.Menu: Меню
+
+; Q.LOAD
+ControlPanel.QuickLoad: Б.Загр
+
+; Q.SAVE
+ControlPanel.QuickSave: Б.Сохр
+
+; BACK
+ControlPanel.Rollback: Назад
+
+; SAVE
+ControlPanel.Save: Сохранить
+
+; SETTINGS
+ControlPanel.Settings: Настройки
+
+; SKIP
+ControlPanel.Skip: Пропустить
+
+; TIPS
+ControlPanel.Tips: Заметки
+
+; TITLE
+ControlPanel.Title: МЕНЮ
+
+; Select a script to play
+ExternalScriptsBrowser.Info: 
+
+; EXTERNAL SCRIPTS
+ExternalScriptsBrowser.Title: 
+
+; CLOSE
+General.Close: Закрыть
+
+; DELETE
+General.Delete: Удалить
+
+; NAV.
+General.Navigate: 
+
+; PAGE
+General.Page: 
+
+; RETURN
+General.Return: Назад
+
+; SCROLL
+General.Scroll: 
+
+; SELECT
+General.Select: 
+
+; TAB
+General.Tab: 
+
+; VIEW
+General.View: 
+
+; Are you sure you want to quit to the title screen?<br>Any unsaved game progress will be lost.
+Naninovel.UI.ControlPanelTitleButton.ConfirmationMessage: Вы уверенны что хотите выйти?
+
+; Default
+Naninovel.UI.GameSettingsFontDropdown.DefaultFontName: По умолчания
+
+; Default
+Naninovel.UI.GameSettingsFontSizeDropdown.Default: По умолчания
+
+; Extra Large
+Naninovel.UI.GameSettingsFontSizeDropdown.ExtraLarge: Очень большой
+
+; Large
+Naninovel.UI.GameSettingsFontSizeDropdown.Large: Большой
+
+; Small
+Naninovel.UI.GameSettingsFontSizeDropdown.Small: Маленький
+
+; Very Low
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption1: Очень маленький
+
+; Low
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption2: Низко
+
+; Medium
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption3: Средне
+
+; High
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption4: Высоко
+
+; Very High
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption5: Очень высоко
+
+; Ultra
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption6: Ультра
+
+; Full Screen
+Naninovel.UI.GameSettingsScreenModeDropdown.ExclusiveFullScreen: Полный экран
+
+; Full Screen Window
+Naninovel.UI.GameSettingsScreenModeDropdown.FullScreenWindow: Полный экран в окне
+
+; Maximized Window
+Naninovel.UI.GameSettingsScreenModeDropdown.MaximizedWindow: Максимальное окно
+
+; Windowed
+Naninovel.UI.GameSettingsScreenModeDropdown.Windowed: Оконный
+
+; Everything
+Naninovel.UI.GameSettingsSkipModeDropdown.Everything: Все
+
+; Read Only
+Naninovel.UI.GameSettingsSkipModeDropdown.ReadOnly: Прочитанное
+
+; Empty
+Naninovel.UI.GameStateSlot.EmptySlotLabel: Пусто
+
+; Are you sure you want to delete save slot?
+Naninovel.UI.SaveLoadMenu.DeleteSaveSlotMessage: Вы уверенны что хотите удалить сохранение
+
+; Are you sure you want to overwrite save slot?
+Naninovel.UI.SaveLoadMenu.OverwriteSaveSlotMessage: Вы уверенны что хотите переписать сохранение
+
+; LOAD
+SaveLoadMenu.Tab.Load: Загрузить
+
+; Q. LOAD
+SaveLoadMenu.Tab.QuickLoad: Б.Загрузка
+
+; SAVE
+SaveLoadMenu.Tab.Save: Сохранить
+
+; Auto delay
+SettingsMenu.AutoDelay: Авто задержка
+
+; Font
+SettingsMenu.Font: Шрифт
+
+; Font size
+SettingsMenu.FontSize: Размер шрифта
+
+; Graphics
+SettingsMenu.Graphics: Графика
+
+; Language
+SettingsMenu.Language: Язык
+
+; Message speed
+SettingsMenu.MessageSpeed: Скорость сообщений
+
+; Preview
+SettingsMenu.Preview: Превью
+
+; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis vitae tellus a pharetra. Aenean vitae ipsum in est lobortis vulputate.
+SettingsMenu.PreviewText: съешь ещё этих мягких французских булок, да выпей чаю
+
+; Resolution
+SettingsMenu.Resolution: Разрешение
+
+; Screen mode
+SettingsMenu.ScreenMode: Режим экрана
+
+; Skip mode
+SettingsMenu.SkipMode: Режим пропуска
+
+; BASIC
+SettingsMenu.Tab.Basic: Базовые
+
+; SOUND
+SettingsMenu.Tab.Sound: Звук
+
+; TEXT
+SettingsMenu.Tab.Text: Текст
+
+; Voice language
+SettingsMenu.VoiceLanguage: Голос
+
+; Effects volume
+SettingsMenu.VolumeEffects: Эффекты
+
+; Master volume
+SettingsMenu.VolumeMaster: Общий
+
+; Music volume
+SettingsMenu.VolumeMusic: Музыка
+
+; Voice volume
+SettingsMenu.VolumeVoice: Голос
+
+; CG GALLERY
+TitleMenu.CGGallery: 
+
+; CONTINUE
+TitleMenu.Continue: Продолжить
+
+; EXIT
+TitleMenu.Exit: Выход
+
+; EXTERNAL SCRIPTS
+TitleMenu.ExternalScripts: 
+
+; NEW GAME
+TitleMenu.NewGame: Новая игра
+
+; SETTINGS
+TitleMenu.Settings: Настройки
+
+; TIPS
+TitleMenu.Tips: Заметки
+
+; SUBMIT
+VariableInput.Submit: Ввод

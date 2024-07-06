@@ -1,0 +1,17 @@
+; English <en> to Russian <ru> localization document for `GetPlayerName` naninovel script
+
+# ~e9991c3a
+; Hello, what's your name?
+Привет, как тебя зовут
+
+# ~a1c128ca
+; Enter your name
+Введите свое имя
+
+# ~880374e2
+; Name's 
+Меня зовут 
+
+# ~ad3e566e
+; !
+

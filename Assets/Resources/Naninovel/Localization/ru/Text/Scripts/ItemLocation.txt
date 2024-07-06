@@ -1,0 +1,17 @@
+; English <en> to Russian <ru> localization document for `ItemLocation` naninovel script
+
+# ~a145b1a6
+; "Looks like it won't be easy"
+Похоже это будет не просто
+
+# ~8e6e2f26
+; "Am i ready?"
+Готов ли я?
+
+# ~f7ed5c9b
+; Play the game
+Сыграть в игру
+
+# ~eb825319
+; "There is nothing i need anymore"
+Мне здесь больше ничего не надо

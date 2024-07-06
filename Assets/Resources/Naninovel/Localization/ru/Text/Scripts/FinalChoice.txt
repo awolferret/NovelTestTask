@@ -1,0 +1,29 @@
+; English <en> to Russian <ru> localization document for `FinalChoice` naninovel script
+
+# ~90ca8304
+; "You brought it?"
+Ты принес это?
+
+# ~721f214d
+; "Good, but now i dont need it"
+Отлично, но мне оно больше не нужно
+
+# ~735e8342
+; "You can keep it to yourself"
+Можешь оставить это себе
+
+# ~9e92f640
+; Give the item to NPC
+Отдать предмет
+
+# ~51d247c6
+; Keep the item for yourself
+Оставить себе
+
+# ~f1e78c93
+; "You are so kind"
+Ты так добр
+
+# ~820f1f51
+; "It's looks good on you"
+Тебе идет

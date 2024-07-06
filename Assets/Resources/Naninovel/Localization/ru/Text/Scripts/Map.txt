@@ -1,0 +1,1 @@
+; English <en> to Russian <ru> localization document for `Map` naninovel script

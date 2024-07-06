@@ -6,8 +6,8 @@ namespace Source.MiniGameService
     [InitializeAtRuntime]
     public class MiniGameService : IEngineService
     {
-        private const string Minigame = "MiniGame";
-        private const string paramName = "ItemTook";
+        private const string MiniGame = "MiniGame";
+        private const string ParamName = "ItemTook";
         private const string True = "True";
         private const string ScriptName = "Map";
 
@@ -37,7 +37,7 @@ namespace Source.MiniGameService
 
         private void OnVariableUpdated(CustomVariableUpdatedArgs obj)
         {
-            if (obj.Name == paramName && obj.Value == True)
+            if (obj.Name == ParamName && obj.Value == True)
             {
                 Stop();
             }
@@ -45,7 +45,7 @@ namespace Source.MiniGameService
 
         public async UniTask StartMiniGame()
         {
-            IManagedUI ui = _uiManager.GetUI(Minigame);
+            IManagedUI ui = _uiManager.GetUI(MiniGame);
             _changeVisibilityTask = ui.ChangeVisibilityAsync(true, 0);
             await UniTask.WhenAll(_changeVisibilityTask);
         }
@@ -55,7 +55,7 @@ namespace Source.MiniGameService
 
         public async UniTask StopMiniGame()
         {
-            IManagedUI ui = _uiManager.GetUI(Minigame);
+            IManagedUI ui = _uiManager.GetUI(MiniGame);
             _changeVisibilityTask = ui.ChangeVisibilityAsync(false, 0);
             await UniTask.WhenAll(_changeVisibilityTask);
             ReturnToMap();
