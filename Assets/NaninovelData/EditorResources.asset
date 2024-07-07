@@ -175,8 +175,28 @@ MonoBehaviour:
   - Id: Audio
     Resources: []
   - Id: Backgrounds/90627977-e40f-491a-bab2-73f9b2f669a6
-    Resources: []
+    Resources:
+    - name: Neutral
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4a5d168a8c1f7f04a8d3157208be5774
+    - name: Map
+      pathPrefix: Backgrounds/MainBackground
+      guid: cc23b315f775d8541aa30042704019af
+    - name: CharBack
+      pathPrefix: Backgrounds/MainBackground
+      guid: dc68765a7daf4034494c49612d6a704c
+    - name: ItemLocation
+      pathPrefix: Backgrounds/MainBackground
+      guid: 0706397dcddd417428712b7584f2cbd3
   - Id: Characters/99e572d4-edff-4d87-add2-0d2850de39d4
     Resources: []
   - Id: Characters/f3638b06-50fe-4fd6-85d4-30d9e1d2d7e7
-    Resources: []
+    Resources:
+    - name: Default
+      pathPrefix: Characters/NPC
+      guid: dadbc2b69b6f8c544b55eac2264cb3a3
+  - Id: Backgrounds/cedfa09d-0ecc-4f9f-9d2e-733a6202651f
+    Resources:
+    - name: bg_Scene
+      pathPrefix: Backgrounds/Map
+      guid: cc23b315f775d8541aa30042704019af

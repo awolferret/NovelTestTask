@@ -1,3 +1,5 @@
+@back CharBack
+@char NPC.Default pos:50,0 scale:2,2,2
 @showUI PlayerHud
 @if !NPCMet
     @set NPCMet=true

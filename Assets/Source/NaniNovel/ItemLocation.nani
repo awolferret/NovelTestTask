@@ -1,8 +1,9 @@
+@back ItemLocation
 @if !ItemTook
     Player: "Looks like it won't be easy"
     Player: "Am i ready?"
     @hidePrinter
-    @choice "Play the game" goto:.MiniGameTest
+    @choice handler:ButtonArea button:Buttons/Item goto:.MiniGameTest
     @stop
 @else
     Player: "There is nothing i need anymore"

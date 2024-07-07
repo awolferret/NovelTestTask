@@ -136,7 +136,7 @@ el:
 el-GR: 
 
 ; English
-en: Английский
+en: English
 
 ; English (Australia)
 en-AU: 

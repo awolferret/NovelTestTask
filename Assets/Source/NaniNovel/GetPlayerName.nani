@@ -1,3 +1,4 @@
+@back Neutral
 @print "Hello, what's your name?"
 @hidePrinter 
 @input name summary:"Enter your name"
