@@ -16,35 +16,35 @@ MonoBehaviour:
   - scriptName: GetPlayerName
     position:
       serializedVersion: 2
-      x: -76
-      y: -3
+      x: -138
+      y: -22
       width: 135
       height: 101
   - scriptName: Map
     position:
       serializedVersion: 2
-      x: 132
-      y: 34
-      width: 183
-      height: 101
+      x: 21
+      y: -7
+      width: 71
+      height: 77
   - scriptName: ToNPC
     position:
       serializedVersion: 2
-      x: 150
-      y: -127
+      x: 19
+      y: -145
       width: 138
-      height: 125
+      height: 101
   - scriptName: ItemLocation
     position:
       serializedVersion: 2
-      x: 130
-      y: 196
-      width: 170
-      height: 173
+      x: -10
+      y: 122
+      width: 193
+      height: 149
   - scriptName: FinalChoice
     position:
       serializedVersion: 2
-      x: 377
-      y: -202
+      x: 250
+      y: -52
       width: 202
       height: 173

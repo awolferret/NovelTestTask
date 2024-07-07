@@ -21,7 +21,7 @@ MonoBehaviour:
   _refillAtFoundPercentage: 100
   _cardAnimationSpeed: 1
   _cardBacks:
-  - {fileID: 21300000, guid: ee96dd0ec994fde42be134fac5262f8b, type: 3}
+  - {fileID: 21300000, guid: 7ebc24f6968b79d47b9746fb8648a7a3, type: 3}
   _cardSprites:
   - {fileID: 21300000, guid: 79bc401e8fbbf69479f9681c97dace25, type: 3}
   - {fileID: 21300000, guid: 889976a065d0e834a9c7ce1fed67a0a7, type: 3}

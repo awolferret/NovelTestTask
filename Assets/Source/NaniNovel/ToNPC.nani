@@ -1,7 +1,7 @@
 @back CharBack
 @char NPC.Default pos:50,0 scale:2,2,2
-@showUI PlayerHud
 @if !NPCMet
+    @showUI PlayerHud
     @set NPCMet=true
     NPC: "Hello there"
     NPC: "I need your help"
@@ -9,10 +9,10 @@
     @set locationOpen=true
     @hidePrinter
 @elseif !ItemTook
+    @showUI PlayerHud
     NPC: "Please bring me the item"
     @hidePrinter
 @else
-    @hideUI PlayerHud
     @goto FinalChoice
 @endif  
 @stop

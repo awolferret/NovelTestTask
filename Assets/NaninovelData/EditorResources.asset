@@ -167,7 +167,7 @@ MonoBehaviour:
     - name: ItemLocation
       pathPrefix: Scripts
       guid: 656bbadc55c66e244a20f1cc7dad9e48
-    - name: FinalChoise
+    - name: FinalChoice
       pathPrefix: Scripts
       guid: c0d1234f27ea19a43b802f30a0e0045e
   - Id: Movies
